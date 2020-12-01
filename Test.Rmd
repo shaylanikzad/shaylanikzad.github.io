@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+author: "Shayla Nikzad"
+date: "9/29/2020"
+output: html_document
+---
+## Setup
+```{r setup, include = F}
+knitr::opts_chunk$set(warning = F, message = F)
+```
+
+## Loading Libraries 
+```{r}
+#library(tidyverse)
+#library(plotly)
+#library(sf)
+#library(tgris)
+#library(leaflet)
+#library(censusapi)
+
+Sys.setenv(CENSUS_KEY="c8aa67e4086b4b5ce3a8717f59faa9a28f611dab")
+```
+
